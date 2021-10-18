@@ -1,0 +1,67 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif ;
+}
+
+.mobile_menu {
+    padding: 24px;
+}
+
+.mobile_menu ul{
+    list-style: none;
+    margin: 24px 0 0 0;
+}
+
+.mobile_menu a{
+    font-size: var(--md);
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.mobile_menu li{
+    margin-bottom: 24px;
+}
+
+.mobile_menu li h1{
+    margin-bottom: 44px;
+}
+
+.footer {
+    padding-top: 55px;
+}
+
+#email a{
+    font-weight: 300;
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+
+#sign_out a{
+    font-size: var(--sm);
+    color: var(--hospital-green);
+}
+
+#orders {
+    margin-top: 35px;
+    padding-top: 35px;
+    border-top: 0.3px solid var(--very-light-pink);
+}
